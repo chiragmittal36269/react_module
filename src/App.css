@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.navbar {
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    color: white;
+    font-weight: 900;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.link_1, .link_2 {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+    margin-right: 20px;
+    font-family: monospace;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    gap: 2px;
+}
+
+.search .input_tag{
+    padding-left: 10px;
+    width: 225px;
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.search_button {
+    width: 70px;
+    height: 40px;
+    background-color: darkslategrey;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.search_button :hover {
+    cursor: pointer;
+}
+
+::placeholder {
+    color: darkslategrey;
+    font-size: 16px;
+}
+
+.per_word {
+    margin-bottom: 20px;
+}
+
+.home{
+    padding-left: 20px;
+}
+
+.audio_para{
+    font-weight: bold;
+}
+
+p{
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-family: cursive;
+    font-weight: 500;
+}
