@@ -47,10 +47,14 @@ const Home = () => {
                                                 <div>
                                                     <audio controls>
                                                         <source
-                                                            src="audio.audio"
+                                                            src={audio.audio}
                                                             type="audio/mpeg"
                                                         />
                                                     </audio>
+                                                    {/* <audio
+                                                        src={audio.audio}
+                                                        controls
+                                                    /> */}
                                                     <p className="audio_para">
                                                         {audio.text}
                                                     </p>
